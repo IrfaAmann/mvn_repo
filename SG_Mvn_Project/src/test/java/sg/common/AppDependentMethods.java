@@ -43,8 +43,7 @@ public class AppDependentMethods extends CucumberTestRunner {
             reports.writeResult(oBrowser, "Exception", "Exception in 'loginToApplication()' method. " + e);
             return false;
         }
-    }
-// EXTRAaa
+    }   
 
     /********************************************
      * Method Name      : logoutFromApplication()
