@@ -19,10 +19,9 @@ public class AppDependentMethods extends CucumberTestRunner {
         }catch(Exception e){
             reports.writeResult(oBrowser, "Exception", "Exception in 'navigateURL()' method. " + e);
             return false;
+            //Added
         }
     }
-
-
 
     /********************************************
      * Method Name      : loginToApplication()
@@ -43,7 +42,7 @@ public class AppDependentMethods extends CucumberTestRunner {
             reports.writeResult(oBrowser, "Exception", "Exception in 'loginToApplication()' method. " + e);
             return false;
         }
-    }   
+    }
 
     /********************************************
      * Method Name      : logoutFromApplication()
